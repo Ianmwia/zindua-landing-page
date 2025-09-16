@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body, .wrapper {
+    display: flex;
+    line-height: 1.6;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-areas: "logo dropdowns apply";
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.logo {
+    grid-area: logo;
+    position: absolute;
+}
+.nav .logo a img {
+    height: 53px;
+    width: 110px;
+}
+.dropdowns {
+    grid-area: dropdowns;
+    width: auto;
+}
+.programs {
+    text-decoration: none;
+}
+select {
+    border: none;
+    font-size: 16px;
+}
+option {
+    font-size: 16px;
+}
+.apply {
+    grid-area: apply;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #fe3549;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 8px;
+}
+.apply a{
+    text-decoration: none;
+    color: white;
+
+}
+.apply:hover{
+    background-color: #34a7be;
+}
+
+.zindua-career {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    background: lightgrey;
+}
+.apply-now {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #fe3549;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+.apply-now:hover{
+    background-color: #34a7be;
+}
+.apply-now a{
+    text-decoration: none;
+    color: white;
+
+}
+.explore-programs {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+.explore-programs:hover{
+    background-color: #34a7be;
+}
+.explore-programs a{
+    text-decoration: none;
+    color:#fe3549;
+}
+.explore-programs a:hover{
+    color: white;
+}
+
+.graduate-companies {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: 50px;
+}
+
+.graduate-title h2{
+    text-align: center;
+}
+
+.graduate-images {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+.graduate-companies .graduate-images img {
+    height: 28px;
+}
+
+.explore-core-programs {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.core-programs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+}
+.six-core-programs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 24px;
+    justify-content: space-between;
+}
+.core-programs .six-core-programs img {
+    height: 118px;
+    width: 175px;
+}
+.core-programs .six-core-programs p {
+    line-height: 1.6;
+    max-width: 250px;  
+    margin: 0 auto;
+}
+.core-programs .six-core-programs h3 {
+    color: #fe3549;
+}
+.graduate-button {
+    border: 2px solid #fe3549;
+    text-align: center;
+    padding: 5px;
+}
+.graduate-button a{
+    text-decoration: none;
+    color: #fe3549;
+}
+.graduate-button:hover{
+    text-decoration: none;
+    background-color: #34a7be;
+    color: white;
+}
+.graduate-testimonials {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+.graduate-testimonials h2{
+    font-size: 20px;
+    color: #0091AD;
+}
+.graduate-testimonials p{
+    font-weight: bold;
+    font-size: 28px;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.testimonial-one{
+    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
