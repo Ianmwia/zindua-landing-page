@@ -16,6 +16,8 @@ body, .wrapper {
   align-items: center;
   padding: 10px 20px;
   background-color: #fff;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -29,6 +31,11 @@ body, .wrapper {
 .dropdowns {
     grid-area: dropdowns;
     width: auto;
+}
+@media only screen and (max-width:768px) {
+    .dropdowns{
+        content-visibility: hidden;
+    }
 }
 .programs {
     text-decoration: none;
