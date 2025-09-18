@@ -19,7 +19,9 @@ body, .wrapper {
   position: sticky;
   top: 0;
 }
-
+section {
+    padding-bottom: 40px;
+}
 .logo {
     grid-area: logo;
     position: absolute;
@@ -328,7 +330,6 @@ option {
 }
 .choose-container-one{
     display: grid;
-    grid-template-rows: repeat(1fr 2fr);
     grid-template-columns: 1fr 2fr;
     align-items: center;
     padding: 0px 24px;
@@ -336,6 +337,10 @@ option {
 .choose-container-one img{
     height: 351px;
     width: 351px;
+    border-radius: 35%;
+}
+.choose-text {
+    padding: 0px 0px 0px 20px;
 }
 .zindua-short-courses{
     justify-content: center;
@@ -358,8 +363,33 @@ option {
     display: flex;
     flex-direction: column;
     border: 1px solid gray;
+    border-radius: 8px;
     padding: 20px;
     gap: 14px;
+}
+.sc-one-o-three h4{
+    color: #fe3549;
+    font-size: 20px;
+}
+.sc-one-o-three p{
+    font-size: 16px;
+}
+.sc-list {
+    padding: 13px;
+}
+.sc-list ul li{
+    font-size: 16px;
+    list-style: none;
+}
+.sc-button {
+    background-color: white;
+    border: 2px solid #fe3549;
+    border-radius: 3px;
+    padding: 10px;
+}
+.sc-button a{
+    text-decoration: none;
+    color: #fe3549;
 }
 .general-footer {
     background-color: black;
@@ -396,6 +426,9 @@ option {
     border-radius: 50%;
     background-color: #fe3549;
     text-decoration: none;
+}
+.footer-social a:hover{
+    background-color: #34a7be;
 }
 .footer-two{
     display: grid;
