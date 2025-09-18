@@ -366,8 +366,90 @@ option {
     color: white;
     display: flex;
     flex-direction: column;
+    padding: 0px 24px;
 }
-.footer-container {
+.talk-to-us h4{
+    font-size: 1.25rem;
+    color: #fe3549;
+}
+.talk-to-us a{
+    text-decoration: none;
+    color: white;
+}
+.footer-top-two {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0px 30px;
+    grid-column-gap: 30px;
+}
+.footer-social {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.footer-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fe3549;
+    text-decoration: none;
+}
+.footer-two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 0px;
+
+}
+.newsletter h2{
+    margin-bottom: 0.5em;
+}
+#email{
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+}
+#subscribe{
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #fe3549;
+    color: white;
+}
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px;
+}
+.footer-bottom ul {
+    list-style: none;
+}
+.footer-bottom a {
+    text-decoration: none;
+    color: white;
+}
+.footer-bottom a:hover {
+    color: #0091AD;
+}
+.footer-nav nav{
+    display: flex;
+    gap: 20px;
+}
+.four-containers h2{
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.fc-links a{
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: white;
+}
+.fc-links a:hover{
+    color: #fe3549;
 }
