@@ -32,6 +32,11 @@ img {
     padding: 10px;
     margin-left: auto;
 }
+@media only screen and (max-width: 768px) {
+  .dropdowns {
+    display: none;
+  }
+}
 .dropdowns select{
     border: none;
 }
@@ -144,6 +149,12 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     padding: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .core-programs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .six-core-programs {
     display: flex;
